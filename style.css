@@ -6,12 +6,12 @@
 #h1{
     color:white ;
     background-color: #081b31;
-    height: 5rem;
-    line-height: 5rem;
+    height: 10vh;
+    padding-top: 5vh;
 }
 .choice{
-    height: 165px;
-    width: 165px;
+    height: 23vh;
+    width: 13vw;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -23,8 +23,8 @@
     background-color: #081b31;
 }
 img{
-    height: 150px;
-    width: 150px;
+    height: 90%;
+    width: 90%;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -48,12 +48,15 @@ img{
 }
 .msg-container{
     margin-top: 5rem;
+    height: 100%;
+    width: 100%;
+    background-color: #081b31;
 }
 #msg{
-    background-color: #081b31;
+   
     color: #fff;
     font-size: 2rem;
-    display: inline;
     padding: 1rem;
     border-radius: 1rem;
+    height: 100%;
 }
